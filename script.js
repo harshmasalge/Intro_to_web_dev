@@ -157,7 +157,6 @@ function getBlog(blogId) {
 
 function showBlogs() {
     let blogsContainer = document.getElementById('blogs');
-    blogsContainer.innerHTML = ''; 
 
     let blogId = 0;
 

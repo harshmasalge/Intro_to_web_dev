@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <a href="createBlog.html" style="color: white; background-color: orange; padding: 2px 10px; border-radius: 5px;">Create Blog</a>
+
+            </ul>
+        </nav>
+    </header>
+    <!-- <main>
+        <section class="blog-list">
+            <h1>All Blogs</h1>
+            <ul id="blog-container">
+                <li>
+                    <h2><a href="blog1.html">My First Blog Post</a></h2>
+                    <p>Learn about my journey into web development...</p>
+                </li>
+                <li>
+                    <h2><a href="blog2.html">Tips for Beginners</a></h2>
+                    <p>Some advice to help beginners start their journey...</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Create a New Blog</h2>
+            <button id="create-blog">Create Blog</button>
+        </section>
+    </main> -->
+    <main>
+        <h2>Blogs</h2>
+        <div id="blogs"></div>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        window.onload = showBlogs
+    </script>
+</body>
+</html>
